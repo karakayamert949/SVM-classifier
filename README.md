@@ -1,19 +1,19 @@
 # SVM-classifier
 
-#Overview
+# Overview
 Implementation of linear SVM classifier for CIFAR-10 dataset. I implemented analytical gradient and stochastic mini-batch.
 Example accuracy vs epoch and loss vs epoch graphs are in the graphs folder.
 Performance of the classifier is in the first markdown of SVM.ipynb, and in the Results part of the README
 
-#Libraries
+# Libraries
 numpy,os,pickle,matplotlib
 
-#Usage
+# Usage
 Execute TrainMain() to train get weight matrix
 Execute ValidMain() to validate Validaiton dataset
 Execute TestMain() to test Test dataset
 
-#Results
+# Results
 -------Train results:
 -----Mini-batch size 256
 ---Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-6
