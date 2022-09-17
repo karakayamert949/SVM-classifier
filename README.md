@@ -115,9 +115,7 @@ THETA = 1e-4
 In epoch 1000, loss is 4.328775130110178
 In epoch 1000 accuracy is 0.393875
 
-
-
--------Validation Results:
+<h2>Validation Results:<h2>
 -----Mini-batch size 256
 THETA = 1e-4
 LEARNING_RATE = 7e-5
@@ -131,7 +129,7 @@ Loss is 6.92635428403829,Accuracy is 0.4024
 
 
 
--------Test Results:
+<h2>Test Results:<h2>
 -----Mini-batch size 256
 THETA = 1e-3
 LEARNING_RATE = 8e-5
