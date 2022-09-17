@@ -14,11 +14,11 @@ Execute ValidMain() to validate Validaiton dataset
 Execute TestMain() to test Test dataset
 
 # Results
--------Train results:
+<h2>Train results:<h2>
 
 
------Mini-batch size 256
----Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-6
+<h3>Mini-batch size 256<h3>
+<h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-6<h4>
 
 THETA = 1e-5
 In epoch 1000, loss is 5.291985059220746
@@ -38,14 +38,14 @@ In epoch 1000 accuracy is 0.347775
 
 
 
----Fixed: EPOCHS = 1000,LEARNING_RATE = 8e-5
+<h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 8e-5<h4>
 THETA = 1e-3
 In epoch 1000, loss is 6.837051169043007
 In epoch 1000 accuracy is 0.413175
 
 
 
----Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-5
+<h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-5<h4>
 
 THETA = 1e-5
 In epoch 1000, loss is 4.473005846222188
@@ -65,7 +65,7 @@ In epoch 1000 accuracy is 0.38755
 
 
 
----Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-4
+<h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-4<h4>
 
 THETA = 1e-5
 In epoch 1000, loss is 4.195538879880822
@@ -85,20 +85,20 @@ In epoch 1000 accuracy is 0.41245
 
 
 
----Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-3
+<h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-3<h4>
 
-Too much unstable
+Too much unstable!!!!
 THETA = 1e-5
 In epoch 1000, loss is 8.297607196745993
 In epoch 1000 accuracy is 0.329675
 
----Fixed: EPOCHS = 1000,LEARNING_RATE = 7e-5
+<h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 7e-5<h4>
 THETA = 1e-4
 In epoch 1000, loss is 5.174179245491815
 In epoch 1000 accuracy is 0.412975
 
------Mini-batch size 512
----Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-4
+<h3>Mini-batch size 512<h3>
+<h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-4<h4>
 
 THETA = 1e-5
 In epoch 1000, loss is 4.077958433569045
@@ -108,15 +108,15 @@ THETA = 1e-2
 In epoch 1000, loss is 4.62524982252704
 In epoch 1000 accuracy is 0.393
 
------Mini-batch size 128
----Fixed: EPOCHS = 1000,LEARNING_RATE = 5e-5
+<h3>Mini-batch size 128<h3>
+<h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 5e-5<h4>
 
 THETA = 1e-4
 In epoch 1000, loss is 4.328775130110178
 In epoch 1000 accuracy is 0.393875
 
 <h2>Validation Results:<h2>
------Mini-batch size 256
+<h3>Mini-batch size 256<h3>
 THETA = 1e-4
 LEARNING_RATE = 7e-5
 EPOCHS = 1000
@@ -130,7 +130,7 @@ Loss is 6.92635428403829,Accuracy is 0.4024
 
 
 <h2>Test Results:<h2>
------Mini-batch size 256
+<h3>Mini-batch size 256<h3>
 THETA = 1e-3
 LEARNING_RATE = 8e-5
 EPOCHS = 1000
