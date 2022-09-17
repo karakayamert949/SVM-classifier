@@ -16,7 +16,6 @@ Execute TestMain() to test Test dataset
 # Results
 <h2>Train results:<h2>
 
-
 <h3>Mini-batch size 256<h3>
 <h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-6<h4>
 
@@ -36,14 +35,10 @@ THETA = 1e-2
 In epoch 1000, loss is 5.297345092785761
 In epoch 1000 accuracy is 0.347775
 
-
-
 <h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 8e-5<h4>
 THETA = 1e-3
 In epoch 1000, loss is 6.837051169043007
 In epoch 1000 accuracy is 0.413175
-
-
 
 <h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-5<h4>
 
@@ -63,8 +58,6 @@ THETA = 1e-2
 In epoch 1000, loss is 4.501979782009769
 In epoch 1000 accuracy is 0.38755
 
-
-
 <h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-4<h4>
 
 THETA = 1e-5
@@ -82,8 +75,6 @@ In epoch 1000 accuracy is 0.40025
 THETA = 1e-2
 In epoch 1000, loss is 4.246982001690002
 In epoch 1000 accuracy is 0.41245
-
-
 
 <h4>Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-3<h4>
 
@@ -127,12 +118,9 @@ LEARNING_RATE = 8e-5
 EPOCHS = 1000
 Loss is 6.92635428403829,Accuracy is 0.4024
 
-
-
 <h2>Test Results:<h2>
 <h3>Mini-batch size 256<h3>
 THETA = 1e-3
 LEARNING_RATE = 8e-5
 EPOCHS = 1000
 Loss is 6.95635111972989,Accuracy is 0.3975
-
