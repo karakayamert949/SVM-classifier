@@ -15,6 +15,8 @@ Execute TestMain() to test Test dataset
 
 # Results
 -------Train results:
+
+
 -----Mini-batch size 256
 ---Fixed: EPOCHS = 1000,LEARNING_RATE = 1e-6
 
@@ -113,6 +115,8 @@ THETA = 1e-4
 In epoch 1000, loss is 4.328775130110178
 In epoch 1000 accuracy is 0.393875
 
+
+
 -------Validation Results:
 -----Mini-batch size 256
 THETA = 1e-4
@@ -124,6 +128,8 @@ THETA = 1e-3
 LEARNING_RATE = 8e-5
 EPOCHS = 1000
 Loss is 6.92635428403829,Accuracy is 0.4024
+
+
 
 -------Test Results:
 -----Mini-batch size 256
