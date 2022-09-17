@@ -1,4 +1,4 @@
-# SVM-classifier
+# SVM-classifier-CIFAR-10
 
 # Overview
 Implementation of linear SVM classifier for CIFAR-10 dataset. I implemented analytical gradient and stochastic mini-batch.
@@ -10,7 +10,9 @@ numpy,os,pickle,matplotlib
 
 # Usage
 Execute TrainMain() to train get weight matrix
+
 Execute ValidMain() to validate Validaiton dataset
+
 Execute TestMain() to test Test dataset
 
 # Results
