@@ -1,4 +1,4 @@
-# SVM-classifier
+# SVM-classifier-CIFAR-10
 
 # Overview
 Implementation of linear SVM classifier for CIFAR-10 dataset. I implemented analytical gradient and stochastic mini-batch.
